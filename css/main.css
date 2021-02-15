@@ -96,6 +96,10 @@ section:first-child .card:nth-child(3){
     background-repeat: no-repeat;
 }
 
+section:first-child .card:nth-child(3) h2{
+    margin-left: 15px;
+}
+
 section:first-child .card:nth-child(4){
     background-image: url(../img/noun_Submarine_3134738.png);
     background-position: center;
@@ -110,6 +114,10 @@ section:nth-child(2) .card:nth-child(1){
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+section:nth-child(2) .card:nth-child(1) h2{
+    margin-left: 20px;
 }
 
 /*no layer card*/
@@ -132,11 +140,19 @@ section:nth-child(2) .card:nth-child(3){
     background-repeat: no-repeat;
 }
 
+section:nth-child(2) .card:nth-child(3) h2{
+    margin-left: 15px;
+}
+
 section:nth-child(2) .card:nth-child(4){
     background-image: url(../img/noun_Tram_3134750.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+section:nth-child(2) .card:nth-child(4) h2{
+    margin-left: 20px;
 }
 
 /*img cards third row*/
@@ -162,11 +178,19 @@ section:last-child .card:nth-child(3){
     background-repeat: no-repeat;
 }
 
+section:last-child .card:nth-child(3) h2{
+    margin-left: 15px;
+}
+
 section:last-child .card:nth-child(4){
     background-image: url(../img/noun_Tractor_3134797.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+section:last-child .card:nth-child(4) h2{
+    margin-left: 15px;
 }
 
 /*footer*/
